@@ -11,22 +11,22 @@ catch(Exception $e)
 }
 
 // On récupère tout le contenu de la table jeux_video
-$reponse = $bdd->query('SELECT * FROM parent WHERE ville_p =\'Dax\' ');
-
+$reponse = $bdd->prepare('SELECT * FROM parent WHERE ville_p = ?');
+$reponse->execute(array($_POST['ville']))
 
 // On affiche chaque entrée une à une
 
 ?>
 
 
-Les parents qui habitent à <?php echo $_POST['ville'];?> sont :
+    Les parents qui habitent à <?php echo $_POST['ville'];?> sont :
 <?php
 while ($donnees = $reponse->fetch())
 {
-?>
-<p>
+    ?>
+    <p>
     le parent n° <?php echo $donnees['id_p'] ; ?> est : <?php echo $donnees['nom_p']; }?>
-</p>
+    </p>
 
 <?php
 

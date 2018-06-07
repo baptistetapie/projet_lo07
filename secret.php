@@ -6,6 +6,8 @@
         <title>Codes d'accès au serveur central de la NASA</title>
     </head>
     <body>
+
+
     
         <?php
     if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "kangourou") // Si le mot de passe est bon
