@@ -1,4 +1,5 @@
 <?php
+
 try
 {
     // On se connecte à MySQL
@@ -10,24 +11,32 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 
+//echo $_POST['nom'] ;
+echo ('Les Enfants de Monsieur et Madame' . $_POST['nom'] .' s\'appellent <br/>') ;
+
 // On récupère tout le contenu de la table jeux_video
-$reponse = $bdd->query('SELECT * FROM parent WHERE ville_p =\'Dax\' ');
+$reponse = $bdd->query('SELECT prenom_e FROM Enfant AS e, Parent AS  p WHERE p.nom_p = \'' . $_POST['nom'] . '\' ');
 
 
 // On affiche chaque entrée une à une
 
-?>
-
-
-Les parents qui habitent à <?php echo $_POST['ville'];?> sont :
-<?php
-while ($donnees = $reponse->fetch())
+while ($donnees=$reponse->fetch())
 {
-?>
-<p>
-    le parent n° <?php echo $donnees['id_p'] ; ?> est : <?php echo $donnees['nom_p']; }?>
-</p>
+    echo ($donnees['prenom_e'] . '<br/>') ;
+}
 
+?>
+
+
+<!--Les parents qui habitent à --><?php //echo $_POST['ville'];?><!-- sont :-->
+<?php
+//while ($donnees = $reponse->fetch())
+//{
+//?>
+<!--<p>-->
+<!--    le parent n° --><?php //echo $donnees['id_p'] ; ?><!-- est : --><?php //echo $donnees['nom_p']; }?>
+<!--</p>-->
+<!---->
 <?php
 
 

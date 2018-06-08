@@ -1,5 +1,5 @@
 <form method="post" action="testbdd2.php">
-    <input type="text" name="ville" id="ville">
+    <input type="text" name="nom" id="nom">
 
     <input type="submit" name="envoyer">
 </form>

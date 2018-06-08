@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d7175f-cbd8-40f8-860f-11e3ff4ff79f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projet_lo07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insertbdd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insertjeu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testbdd3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secret.php" beforeDir="false" afterPath="$PROJECT_DIR$/secret.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testbdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/testbdd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formulairetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulairetest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testbdd2.php" beforeDir="false" afterPath="$PROJECT_DIR$/testbdd2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,16 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testbdd2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testbdd2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertbdd.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="insertbdd.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insertbdd.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -90,6 +73,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="formulairetest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formulairetest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testbdd2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testbdd2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -101,9 +102,10 @@
         <option value="$PROJECT_DIR$/testbdd.php" />
         <option value="$PROJECT_DIR$/secret.php" />
         <option value="$PROJECT_DIR$/testbdd3.php" />
-        <option value="$PROJECT_DIR$/testbdd2.php" />
         <option value="$PROJECT_DIR$/insertjeu.php" />
         <option value="$PROJECT_DIR$/insertbdd.php" />
+        <option value="$PROJECT_DIR$/formulairetest.php" />
+        <option value="$PROJECT_DIR$/testbdd2.php" />
       </list>
     </option>
   </component>
@@ -145,6 +147,7 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -169,12 +172,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528310600270</updated>
       <workItem from="1528310601776" duration="2174000" />
-      <workItem from="1528355269333" duration="1667000" />
+      <workItem from="1528355269333" duration="3259000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3841000" />
+    <option name="totallyTimeSpent" value="5433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -260,40 +263,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Github/lo07_projet/identification.php" />
-    <entry file="file://$PROJECT_DIR$/secret.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/identification.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/formulairetest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testbdd3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testbdd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testbdd2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -308,6 +287,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testbdd3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/secret.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formulairetest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testbdd2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
         </state>
       </provider>
     </entry>
