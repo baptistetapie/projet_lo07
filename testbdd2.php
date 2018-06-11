@@ -12,7 +12,8 @@ catch(Exception $e)
 }
 
 //echo $_POST['nom'] ;
-echo ('Les Enfants de Monsieur et Madame' . $_POST['nom'] .' s\'appellent <br/>') ;
+
+echo ('Les Enfants de Monsieur et Madame ' . $_POST['nom'] .' s\'appellent <br/>') ;
 
 // On récupère tout le contenu de la table jeux_video
 $reponse = $bdd->query('SELECT prenom_e FROM Enfant AS e, Parent AS  p WHERE p.nom_p = \'' . $_POST['nom'] . '\' ');
