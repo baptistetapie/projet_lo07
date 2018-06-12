@@ -64,7 +64,8 @@ and open the template in the editor.
                 <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
             </p>
             
-            
+            <label for="expe">Expérience :</label>
+            <p>
             <ul class="experience">
 
   <input type="radio" id="5-exp" name="exp" value="5" /><label for="5-exp" title="Professionnelle">5</label>
@@ -77,6 +78,7 @@ and open the template in the editor.
 
   <input type="radio" id="1-exp" name="exp" value="1" /><label for="1-exp" title="Première expérience">1</label>
             </ul>
+            </p>
             
             <p>
                 <input type="submit" value="Envoyer" />
