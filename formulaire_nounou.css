@@ -85,9 +85,10 @@
           
           
           .experience{
-            float: left;
             border-style: none;
-            }
+            width: 75%;
+            margin-top: -57px;
+          }
           .experience:not(:checked) > input {
             position: absolute;
             top: -9999px;
