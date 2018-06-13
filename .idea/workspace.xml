@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d7175f-cbd8-40f8-860f-11e3ff4ff79f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/affichageliste.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/formulorga.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/testliste.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/testorga.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accueil_nounou.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insert_nounou.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formulaire_ajout_parent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formulaire_nounou.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formulaire_parent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langue_auto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retourhaut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formulaire_ajout_nounou.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire_ajout_nounou.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulairetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulairetest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/identification.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertjeu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/insertjeu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertparent.php" beforeDir="false" afterPath="$PROJECT_DIR$/insertparent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secret.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/secret.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/testdate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testbdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/testbdd.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="accueil_nounou.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="accueil_nounou.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accueil_nounou.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -50,16 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="formulaire_ajout_nounou.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="formulaire_ajout_nounou.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/formulaire_ajout_nounou.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -83,8 +82,9 @@
         <option value="$PROJECT_DIR$/Tests/testliste.php" />
         <option value="$PROJECT_DIR$/Tests/affichageliste.php" />
         <option value="$PROJECT_DIR$/insert_nounou.php" />
-        <option value="$PROJECT_DIR$/formulaire_ajout_nounou.php" />
         <option value="$PROJECT_DIR$/accueil_nounou.php" />
+        <option value="$PROJECT_DIR$/formulaire_ajout_nounou.php" />
+        <option value="$PROJECT_DIR$/t.html" />
       </list>
     </option>
   </component>
@@ -127,6 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -161,12 +162,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528310600270</updated>
       <workItem from="1528310601776" duration="2174000" />
-      <workItem from="1528355269333" duration="15471000" />
+      <workItem from="1528355269333" duration="15685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17645000" />
+    <option name="totallyTimeSpent" value="17859000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -356,17 +357,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formulaire_ajout_nounou.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accueil_nounou.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formulaire_ajout_nounou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,133 @@
+* {
+                box-sizing: border-box;
+            }
+            label{
+                display: inline-block;
+                width: 150px;
+            }
+            input{
+                width: 65%;
+                padding: 12px 15px;
+                margin: 4px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            div {
+                border-radius: 5px;
+                background-color: #f2f2f2;
+                padding: 20px;
+                margin-left: 350px;
+                margin-right: 350px;             
+            }
+            input[type=submit] {
+                width: 100%;
+                background-color: #cc0000;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+                background-color: #ff4d4d;
+                color: #660000;
+            }
+            h2{
+                color: #cc0000;
+                letter-spacing: 1px;
+                text-align: center;
+                line-height: 35px;
+            }
+            p {
+                letter-spacing: 1px;
+            }
+            header nav ul li{
+                display: inline;
+                margin-left: 0;
+            }
+            a#cRetour{
+                border-radius:3px;
+                padding:10px;
+                font-size:15px;
+                text-align:center;
+                color:#fff;
+                background:rgba(0, 0, 0, 0.25);
+                position:fixed;
+                right:20px;
+                opacity:1;
+                z-index:99999;
+                transition:all ease-in 0.2s;
+                backface-visibility: hidden;
+                -webkit-backface-visibility: hidden;
+                text-decoration: none;
+          }
+          a#cRetour:before{ 
+              content: "\25b2"; 
+          }
+          a#cRetour:hover{
+                background:rgba(0, 0, 0, 1);
+                transition:all ease-in 0.2s;
+          }
+          a#cRetour.cInvisible{
+            bottom:-35px;
+            opacity:0;
+            transition:all ease-in 0.5s;
+          }
+
+          a#cRetour.cVisible{
+            bottom:20px;
+            opacity:1;
+          }
+          
+          
+          .experience{
+            border-style: none;
+            width: 75%;
+            margin-top: -57px;
+          }
+          .experience:not(:checked) > input {
+            position: absolute;
+            top: -9999px;
+            clip: rect(0,0,0,0);
+          }
+          .experience:not(:checked) > label {
+            float: right;
+            width: 1em;
+            padding: 0 .1em;
+            overflow: hidden;
+            white-space: nowrap;
+            cursor: pointer;
+            font-size: 400%;
+            line-height: 1.2;
+            color: lightgrey;
+            text-shadow: 1px 1px #bbb;
+          }
+          .experience:not(:checked) > label:before { 
+              content: '★ '; 
+          }
+          .experience > input:checked ~ label {
+            color: gold;
+            text-shadow: 1px 1px #c60;
+            font-size: 450% !important;
+          }
+          .experience:not(:checked) > label:hover, 
+          .experience:not(:checked) > label:hover ~ label { 
+              color: gold; 
+          }
+          .experience > input:checked + label:hover, 
+          .experience > input:checked + label:hover ~ label, 
+          .experience > input:checked ~ label:hover, 
+          .experience > input:checked ~ label:hover ~ label, 
+          .experience > label:hover ~ input:checked ~ label {
+            color: gold;
+            text-shadow: 1px 1px goldenrod;
+          }
+          .experience > label:active {
+            position: relative;
+            top: 2px;
+            left: 2px;
+          }
