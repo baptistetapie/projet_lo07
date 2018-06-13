@@ -21,7 +21,7 @@
         <form name="ajout_nounou" method='post' action='apres_soumission_nounou.php' >
         <div>    
             <p>
-                <label for="prenom">PrÃ©nom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prénom..." required/>
+                <label for="prenom">Prénom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prénom..." required/>
             </p>
             
             <p>
@@ -33,25 +33,21 @@
             </p>
 
             <p>
-<<<<<<< HEAD
-                <label for="tel">Téléphone</label> : <input type="tel" name="tel" id="tel" />
-=======
-                <label for="mail">Mail :</label><input type="email" name="mail" id="mail" placeholder="Votre email..." required />
->>>>>>> 8914aebe1ec376080f312f302c9b9db13615f94b
+
+                <label for="email">Mail :</label><input type="email" name="email" id="email" placeholder="Votre email..." required />
+
             </p>
 
             <p>
-<<<<<<< HEAD
-                <label for="email">Email</label> : <input type="email" name="email" id="email"  />
-=======
-                <label for="tel">TÃ©lÃ©phone portable :</label><input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone..."  required />
->>>>>>> 8914aebe1ec376080f312f302c9b9db13615f94b
+                <label for="tel">Téléphone :</label><input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone..."  required />
             </p>
 
             <p>
-                <label for="age">Age</label> : <input type="number" name="age" id="age" />
+                <label for="age">Age :</label>  <input type="number" name="age" id="age" placeholder="Votre âge..." required />
             </p>
 
+
+            
             <p>
             <fieldset>
                 <legend>Veuillez sélectionner les langues que vous parlez </legend>
@@ -73,27 +69,30 @@
                 </div>
             </fieldset>
             </p>
-            <p>
-            Quel est votre niveau de compétences ? <br/>
 
-                <select name="experience">
-                    <option value="débutant(e)">Débutant(e)</option>
-                    <option value="confirmé(e)">Confirmé(e)</option>
-                </select>
-            </p>
+
+<!--            <p>-->
+<!--            Quel est votre niveau de compétences ? <br/>-->
+<!---->
+<!--                <select name="experience">-->
+<!--                    <option value="débutant(e)">Débutant(e)</option>-->
+<!--                    <option value="confirmé(e)">Confirmé(e)</option>-->
+<!--                </select>-->
+<!--            </p>-->
+
+
+
+
+
 
             <p>
-                <label for="ville">Age :</label><input type="number" name="age" id="ville" placeholder="Votre age..."  required />
+                <label for="presentation">Présentation :</label>
             </p>
-            
             <p>
-                <label for="langue">Langue(s) parlées :</label><input type="text" name="langue" id="langue"/>
+                <textarea name="presentation" id="presentation" placeholder="Présentez-vous en quelques mots..." cols="80" rows="4" required></textarea>
             </p>
-            
-            <p>
-                <label for="ville">Présentation :</label></p><p><textarea name="presentation" id="presentation" placeholder="Présentez-vous en quelques mots..." cols="80" rows="4" required></textarea>
-            </p>
-            
+
+
             <p>
                 <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required/>
             </p>
@@ -101,7 +100,12 @@
             <p>
                 <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
             </p>
-            
+
+            <p>
+                <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
+            </p>
+
+
             <label for="expe">Expérience :</label>
             <p>
             <ul class="experience">
@@ -130,7 +134,11 @@
             </p>
             
         </div>
-        </form> 
+        </form>
+
+
+
+
             
         <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
         
