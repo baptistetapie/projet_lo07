@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d7175f-cbd8-40f8-860f-11e3ff4ff79f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/insertparent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/affichageliste.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/formulorga.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/testliste.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/testorga.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accueil_nounou.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/insert_nounou.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formulaire_ajout_nounou.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire_ajout_nounou.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formulairetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulairetest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testbdd2.php" beforeDir="false" afterPath="$PROJECT_DIR$/testbdd2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/identification.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/identification.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertjeu.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/insertjeu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertparent.php" beforeDir="false" afterPath="$PROJECT_DIR$/insertparent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secret.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/secret.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/testdate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testbdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/testbdd.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,74 +41,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="secret.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/secret.php">
+      <file leaf-file-name="accueil_nounou.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/accueil_nounou.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="330">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testbdd3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testbdd3.php">
+      <file leaf-file-name="formulaire_ajout_nounou.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formulaire_ajout_nounou.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertbdd.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insertbdd.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="23" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertjeu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insertjeu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testbdd.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testbdd.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formulairetest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/formulairetest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="155" selection-start-line="14" selection-start-column="155" selection-end-line="14" selection-end-column="155" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertparent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insertparent.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testbdd2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testbdd2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="670">
+              <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -116,8 +73,18 @@
         <option value="$PROJECT_DIR$/insertjeu.php" />
         <option value="$PROJECT_DIR$/insertbdd.php" />
         <option value="$PROJECT_DIR$/testbdd2.php" />
-        <option value="$PROJECT_DIR$/insertparent.php" />
+        <option value="$PROJECT_DIR$/testorga.php" />
+        <option value="$PROJECT_DIR$/formulorga.php" />
         <option value="$PROJECT_DIR$/formulairetest.php" />
+        <option value="$PROJECT_DIR$/insertparent.php" />
+        <option value="$PROJECT_DIR$/Tests/identification.php" />
+        <option value="$PROJECT_DIR$/Tests/testdate.php" />
+        <option value="$PROJECT_DIR$/Tests/testbdd.php" />
+        <option value="$PROJECT_DIR$/Tests/testliste.php" />
+        <option value="$PROJECT_DIR$/Tests/affichageliste.php" />
+        <option value="$PROJECT_DIR$/insert_nounou.php" />
+        <option value="$PROJECT_DIR$/formulaire_ajout_nounou.php" />
+        <option value="$PROJECT_DIR$/accueil_nounou.php" />
       </list>
     </option>
   </component>
@@ -148,6 +115,11 @@
               <item name="projet_lo07" type="b2602c69:ProjectViewProjectNode" />
               <item name="projet_lo07" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="projet_lo07" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projet_lo07" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -159,7 +131,12 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,12 +161,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528310600270</updated>
       <workItem from="1528310601776" duration="2174000" />
-      <workItem from="1528355269333" duration="4975000" />
+      <workItem from="1528355269333" duration="15471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7149000" />
+    <option name="totallyTimeSpent" value="17645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,10 +217,10 @@
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/identification.php">
+    <entry file="file://$PROJECT_DIR$/Tests/identification.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/secret.php">
+    <entry file="file://$PROJECT_DIR$/Tests/secret.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -257,7 +234,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testbdd.php">
+    <entry file="file://$PROJECT_DIR$/Tests/testbdd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
@@ -275,18 +252,43 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Github/lo07_projet/identification.php" />
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/identification.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/secret.php">
+    <entry file="file://$PROJECT_DIR$/Tests/secret.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insertbdd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testbdd2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/formulorga.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formulairetest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/testbdd3.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -295,47 +297,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testbdd.php">
+    <entry file="file://$PROJECT_DIR$/Tests/testdate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/identification.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/insertjeu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insertparent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/testbdd.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="81" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testbdd2.php">
+    <entry file="file://$PROJECT_DIR$/Tests/testorga.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insertjeu.php">
+    <entry file="file://$PROJECT_DIR$/Tests/affichageliste.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insertbdd.php">
+    <entry file="file://$PROJECT_DIR$/Tests/testliste.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insert_nounou.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="23" selection-end-column="2" />
+          <caret selection-end-line="38" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insertparent.php">
+    <entry file="file://$PROJECT_DIR$/formulaire_ajout_nounou.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        <state relative-caret-position="670">
+          <caret line="57" column="50" selection-start-line="57" selection-start-column="50" selection-end-line="57" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/formulairetest.php">
+    <entry file="file://$PROJECT_DIR$/accueil_nounou.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="155" selection-start-line="14" selection-start-column="155" selection-end-line="14" selection-end-column="155" />
+        <state relative-caret-position="330">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

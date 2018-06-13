@@ -11,12 +11,20 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 
-$bdd->exec('INSERT INTO parent(nom_p,ville_p,email_p,organisation_p) VALUES (\'Dupont\',\'Marseille\',\'@ciao\',\'RAS\')');
+
+//variables de transfert
+
+$nom = $_POST['nom'];
+$email =$_POST['email'];
+$ville = $_POST['ville'];
+$orga = $_POST['orga'];
+
+$bdd->exec('INSERT INTO parent(nom_p,ville_p,email_p,organisation_p) VALUES ("'.$nom.'","'.$ville.'","'.$email.'","'.$orga.'")');
 
 
 
 
-$bdd->exec('UPDATE parent SET ville_p = \'Capvern\' WHERE nom_p = \'TAPIE\'') ;
+//$bdd->exec('UPDATE parent SET ville_p = \'Capvern\' WHERE nom_p = \'TAPIE\'') ;
 
 
 
