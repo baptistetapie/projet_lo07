@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d7175f-cbd8-40f8-860f-11e3ff4ff79f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/accueil_parent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accueil_nounou.php" beforeDir="false" afterPath="$PROJECT_DIR$/accueil_nounou.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formulaire_ajout_nounou.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire_ajout_nounou.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formulaire_ajout_parent.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire_ajout_parent.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,39 +31,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="formulaire_ajout_nounou.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/formulaire_ajout_nounou.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="90" selection-start-line="90" selection-end-line="92" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formulaire_ajout_parent.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/formulaire_ajout_parent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accueil_parent.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/accueil_parent.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="accueil_nounou.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accueil_nounou.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="554">
+              <caret line="53" selection-start-line="53" selection-end-line="65" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formulaire_ajout_nounou.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/formulaire_ajout_nounou.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formulaire_nounou.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/formulaire_nounou.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1310" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="langue_auto.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/langue_auto.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="retourhaut.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retourhaut.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -93,9 +98,11 @@
         <option value="$PROJECT_DIR$/Tests/testliste.php" />
         <option value="$PROJECT_DIR$/Tests/affichageliste.php" />
         <option value="$PROJECT_DIR$/insert_nounou.php" />
-        <option value="$PROJECT_DIR$/accueil_nounou.php" />
         <option value="$PROJECT_DIR$/t.html" />
         <option value="$PROJECT_DIR$/formulaire_ajout_nounou.php" />
+        <option value="$PROJECT_DIR$/accueil_nounou.php" />
+        <option value="$PROJECT_DIR$/accueil_parent.php" />
+        <option value="$PROJECT_DIR$/formulaire_ajout_parent.php" />
       </list>
     </option>
   </component>
@@ -173,12 +180,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528310600270</updated>
       <workItem from="1528310601776" duration="2174000" />
-      <workItem from="1528355269333" duration="17083000" />
+      <workItem from="1528355269333" duration="20467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19257000" />
+    <option name="totallyTimeSpent" value="22641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,17 +382,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accueil_nounou.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/langue_auto.js">
+    <entry file="file://$PROJECT_DIR$/retourhaut.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/retourhaut.js">
+    <entry file="file://$PROJECT_DIR$/langue_auto.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/formulaire_nounou.css">
@@ -395,8 +395,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/formulaire_ajout_nounou.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        <state relative-caret-position="419">
+          <caret line="90" selection-start-line="90" selection-end-line="92" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accueil_nounou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="53" selection-start-line="53" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accueil_parent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/formulaire_ajout_parent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
         </state>
       </provider>
     </entry>

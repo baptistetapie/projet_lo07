@@ -22,10 +22,10 @@ and open the template in the editor.
        </nav>
         </header>
       
-        <form name="ajout_parent" method='post' action='apres_soumission_parent.php' >
-        <div>    
+        <form name="ajout_parent" method='post' action='accueil_parent.php' >
+        <div>
             <p>
-                <label for="prenom">PrÃ©nom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prénom..." required/>
+                <label for="prenom">Prénom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prénom..." required/>
             </p>
             
             <p>
@@ -37,13 +37,17 @@ and open the template in the editor.
             </p>
             
             <p>
-                <label for="mail">Mail :</label><input type="email" name="mail" id="mail" placeholder="Votre email..." required />
+                <label for="email">Mail :</label><input type="email" name="email" id="email" placeholder="Votre email..." required />
             </p>
             
             <p>
-                <label for="tel">TÃ©lÃ©phone :</label><input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone..."  required />
+                <label for="tel">Téléphone :</label><input type="tel" name="tel" id="tel" placeholder="Votre numéro de téléphone..."  required />
             </p>
-            
+
+            <p>
+                <textarea name="infos" id="infos" placeholder="Indiquez toutes informations qui vous semblent importantes" cols="80" rows="4" required></textarea>
+            </p>
+
             <p>
                 <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required>
             </p>

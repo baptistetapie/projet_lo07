@@ -18,10 +18,8 @@
 
     Nous reviendrons vers toi une fois ton profil validé par notre administrateur
 
-    <?php
 
-    echo $_POST[]
-    ?>
+
 
 <!--    PARTIE REMPLISSAGE BDD   -->
 
@@ -50,13 +48,15 @@
     $age = $_POST['age'];
     $experience = $_POST['experience'];
     $presentation = $_POST['presentation'];
+    $identifiant=$_POST['identifiant'];
+    $mdp=$_POST['mdp'];
 
     //Commande insertion sql
 
 
-    $bdd->exec('INSERT INTO nounou(prenom_n,nom_n,ville_n,tel_n,email_n, age_n,experience_n,presentation_n) 
+    $bdd->exec('INSERT INTO nounou(prenom_n,nom_n,ville_n,tel_n,email_n, age_n,experience_n,presentation_n,identifiant_n,mdp_n) 
                       
-                      VALUES ("'.$prenom.'","'.$nom.'","'.$ville.'","'.$tel.'","'.$email.'","'.$age.'","'.$experience.'","'.$presentation.'")');
+                      VALUES ("'.$prenom.'","'.$nom.'","'.$ville.'","'.$tel.'","'.$email.'","'.$age.'","'.$experience.'","'.$presentation.'","'.$identifiant.'","'.$mdp.'")');
 
 
 

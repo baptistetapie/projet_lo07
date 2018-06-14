@@ -18,7 +18,7 @@
        </nav>
         </header>
       
-        <form name="ajout_nounou" method='post' action='apres_soumission_nounou.php' >
+        <form name="ajout_nounou" method='post' action='accueil_nounou.php' >
         <div>    
             <p>
                 <label for="prenom">Prénom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prénom..." required/>
@@ -47,28 +47,28 @@
             </p>
 
 
-            
-            <p>
-            <fieldset>
-                <legend>Veuillez sélectionner les langues que vous parlez </legend>
-                <div>
-                    <input type="checkbox" id="francais" name="langue" value="français">
-                    <label for="francais">français</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="anglais" name="langue" value="anglais">
-                    <label for="anglais">anglais</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="allemand" name="langue" value="allemand">
-                    <label for="allemand">allemand</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="espagnol" name="langue" value="espagnol">
-                    <label for="espagnol">espagnol</label>
-                </div>
-            </fieldset>
-            </p>
+
+<!--            <p>-->
+<!--            <fieldset>-->
+<!--                <legend>Veuillez sélectionner les langues que vous parlez </legend>-->
+<!--                <div>-->
+<!--                    <input type="checkbox" id="francais" name="langue" value="français">-->
+<!--                    <label for="francais">français</label>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <input type="checkbox" id="anglais" name="langue" value="anglais">-->
+<!--                    <label for="anglais">anglais</label>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <input type="checkbox" id="allemand" name="langue" value="allemand">-->
+<!--                    <label for="allemand">allemand</label>-->
+<!--                </div>-->
+<!--                <div>-->
+<!--                    <input type="checkbox" id="espagnol" name="langue" value="espagnol">-->
+<!--                    <label for="espagnol">espagnol</label>-->
+<!--                </div>-->
+<!--            </fieldset>-->
+<!--            </p>-->
 
 
 <!--            <p>-->
@@ -96,42 +96,41 @@
             <p>
                 <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required/>
             </p>
-            
-            <p>
-                <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
-            </p>
 
             <p>
                 <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
             </p>
 
 
-            <label for="expe">Expérience :</label>
-            <p>
-            <ul class="experience">
 
-  <input type="radio" id="5-exp" name="exp" value="5" /><label for="5-exp" title="Professionnelle">5</label>
+<!--            <label for="expe">Expérience :</label>-->
+<!--            <p>-->
+<!--            <ul class="experience">-->
+<!---->
+<!--  <input type="radio" id="5-exp" name="exp" value="5" /><label for="5-exp" title="Professionnelle">5</label>-->
+<!---->
+<!--  <input type="radio" id="4-exp" name="exp" value="4" /><label for="4-exp" title="Très habituée">4</label>-->
+<!---->
+<!--  <input type="radio" id="3-exp" name="exp" value="3" /><label for="3-exp" title="Régulièrement">3</label>-->
+<!---->
+<!--  <input type="radio" id="2-exp" name="exp" value="2" /><label for="2-exp" title="Occasionnellement">2</label>-->
+<!---->
+<!--  <input type="radio" id="1-exp" name="exp" value="1" /><label for="1-exp" title="Première expérience">1</label>-->
+<!--            </ul>-->
+<!--            </p>-->
+<!--            -->
 
-  <input type="radio" id="4-exp" name="exp" value="4" /><label for="4-exp" title="Très habituée">4</label>
-
-  <input type="radio" id="3-exp" name="exp" value="3" /><label for="3-exp" title="Régulièrement">3</label>
-
-  <input type="radio" id="2-exp" name="exp" value="2" /><label for="2-exp" title="Occasionnellement">2</label>
-
-  <input type="radio" id="1-exp" name="exp" value="1" /><label for="1-exp" title="Première expérience">1</label>
-            </ul>
-            </p>
-            
             <p>
                 <input type="submit" value="Envoyer" />
-            </p>   
-        
-            <p>
-                Formulaire d'envoi de fichier :<br />
-                
-                <input type="file" name="monfichier" /><br />
-                
             </p>
+
+<!--        -->
+<!--            <p>-->
+<!--                Formulaire d'envoi de fichier :<br />-->
+<!--                -->
+<!--                <input type="file" name="monfichier" /><br />-->
+<!--                -->
+<!--            </p>-->
             
         </div>
         </form>
