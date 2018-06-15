@@ -8,7 +8,7 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Inscription parents | Les Bambins</title>
-        <link rel="stylesheet" href="formulaire_parent.css" />
+        <link rel="stylesheet" href="../CSS/formulaire_parent.css" />
             
     </head>
     <body>
@@ -22,7 +22,7 @@ and open the template in the editor.
        </nav>
         </header>
       
-        <form name="ajout_parent" method='post' action='accueil_parent.php' >
+        <form name="ajout_parent" method='post' action='../accueil/accueil_parent.php' >
         <div>
             <p>
                 <label for="prenom">Prénom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prénom..." required/>
@@ -65,7 +65,7 @@ and open the template in the editor.
             
         <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
         
-        <script src="retourhaut.js"></script>
+        <script src="../JavaScript/retourhaut.js"></script>
         
         
     </body>

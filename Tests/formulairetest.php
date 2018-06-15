@@ -1,4 +1,4 @@
-<form method="post" action="insertparent.php">
+<form method="post" action="../insertparent.php">
     <p>
         <label for="nom">Nom : </label> <input type="text" name="nom" id="nom">
     </p>

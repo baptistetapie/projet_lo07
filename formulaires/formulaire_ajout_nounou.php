@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Inscription nounous | Les Bambins</title>
-        <link rel="stylesheet" href="formulaire_nounou.css" />
+        <link rel="stylesheet" href="../CSS/formulaire_nounou.css" />
        
     </head>
     <body>
@@ -18,7 +18,7 @@
        </nav>
         </header>
       
-        <form name="ajout_nounou" method='post' action='accueil_nounou.php' >
+        <form name="ajout_nounou" method='post' action='../accueil/accueil_nounou.php' enctype="multipart/form-data" >
         <div>    
             <p>
                 <label for="prenom">Prénom :</label><input type="text" name="prenom" id="prenom" placeholder="Votre prénom..." required/>
@@ -101,6 +101,12 @@
                 <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
             </p>
 
+            <p>
+                Photo de profil :<br />
+                <input type="file" name="photo" /><br />
+                <input type="submit" value="Envoyer le fichier" />
+            </p>
+
 
 
 <!--            <label for="expe">Expérience :</label>-->
@@ -141,8 +147,8 @@
             
         <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
         
-        <script src="retourhaut.js"></script>
-        <script src="langue_auto.js"></script>
+        <script src="../JavaScript/retourhaut.js"></script>
+        <script src="../JavaScript/langue_auto.js"></script>
         
     </body>
 </html>

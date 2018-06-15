@@ -14,6 +14,17 @@ else
 ?>
 
 Merci pour votre inscription ! <br/>
+Vous allez à présent pouvoir inscrire vos enfants <br/>
+
+
+
+
+
+
+
+
+
+
 
     <!--    PARTIE REMPLISSAGE BDD   -->
 
@@ -40,7 +51,8 @@ catch(Exception $e)
     $tel=$_POST['tel'];
     $infos = $_POST['infos'];
     $identifiant= $_POST['identifiant'];
-    $mdp = $_POST['mdp'];
+
+    $hash = password_hash($_POST['mdp'],PASSWORD_BCRYPT);
 
 
 //Commande insertion sql
@@ -48,7 +60,7 @@ catch(Exception $e)
 
 $bdd->exec('INSERT INTO parent(prenom_p,nom_p,ville_p,email_p,tel_p, infos_p, identifiant_p,mdp_p) 
                       
-                      VALUES ("'.$prenom.'","'.$nom.'","'.$ville.'","'.$email.'","'.$tel.'","'.$infos.'","'.$identifiant.'","'.$mdp.'")');
+                      VALUES ("'.$prenom.'","'.$nom.'","'.$ville.'","'.$email.'","'.$tel.'","'.$infos.'","'.$identifiant.'","'.$hash.'")');
 
 
 
