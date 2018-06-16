@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5d7175f-cbd8-40f8-860f-11e3ff4ff79f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Tests/envoie_fichier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/formulairefichier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connexion/connexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connexion/connexion_nounou.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profil/profil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profil/profil_nounou.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accueil_nounou.php" beforeDir="false" afterPath="$PROJECT_DIR$/accueil/accueil_nounou.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accueil_parent.php" beforeDir="false" afterPath="$PROJECT_DIR$/accueil/accueil_parent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulaire_ajout_nounou.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaires/formulaire_ajout_nounou.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulaire_ajout_parent.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaires/formulaire_ajout_parent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulaire_nounou.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/formulaire_nounou.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulaire_parent.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/formulaire_parent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulairetest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/formulairetest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/insert_nounou.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertbdd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/insertparent.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/langue_auto.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/langue_auto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/retourhaut.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/retourhaut.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/t.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testbdd2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testbdd3.php" beforeDir="false" />
-    </list>
+    <list default="true" id="b5d7175f-cbd8-40f8-860f-11e3ff4ff79f" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -261,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528310600270</updated>
       <workItem from="1528310601776" duration="2174000" />
-      <workItem from="1528355269333" duration="31491000" />
+      <workItem from="1528355269333" duration="31866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33665000" />
+    <option name="totallyTimeSpent" value="34040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
