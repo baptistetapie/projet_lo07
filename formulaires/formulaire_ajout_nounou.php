@@ -86,14 +86,14 @@
 <!--            </p>-->
 
 
-<!--            <p>-->
-<!--            Quel est votre niveau de compétences ? <br/>-->
-<!---->
-<!--                <select name="experience">-->
-<!--                    <option value="débutant(e)">Débutant(e)</option>-->
-<!--                    <option value="confirmé(e)">Confirmé(e)</option>-->
-<!--                </select>-->
-<!--            </p>-->
+            <p>
+                Quel est votre niveau de compétences ? <br/>
+
+                <select name="experience">
+                    <option value="débutant(e)">Débutant(e)</option>
+                    <option value="confirmé(e)">Confirmé(e)</option>
+                </select>
+            </p>
 
 
 

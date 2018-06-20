@@ -16,7 +16,7 @@ and open the template in the editor.
         
         <header>
         <nav id="nav"> 
-           <ul> <li><a href="accueil.php" title="Les Bambins"><img src="https://naitreetgrandir.com/DocumentsNG/Fiches/images/bg-naitre-grandir-bienfaits-dessin-3-a-5-ans-1.Jpeg" alt="logo" width="100px"></a></li>
+           <ul> <li><a href="../accueil/accueil.php" title="Les Bambins"><img src="https://naitreetgrandir.com/DocumentsNG/Fiches/images/bg-naitre-grandir-bienfaits-dessin-3-a-5-ans-1.Jpeg" alt="logo" width="100px"></a></li>
                <li> <h2>FORMULAIRE D'INSCRIPTION DES PARENTS</h2></li>
            </ul>
        </nav>

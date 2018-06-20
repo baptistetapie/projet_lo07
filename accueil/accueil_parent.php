@@ -32,7 +32,7 @@ $count = $req -> rowCount() ;
 
 if($count==1)
     {
-        echo('Identifiant déjà existant, <a href="formulaires/formulaire_ajout_parent.php"> Retour au formulaire </a>') ;
+        echo('Identifiant déjà existant, <a href="../formulaires/formulaire_ajout_parent.php"> Retour au formulaire </a>') ;
     }
 else
 {
