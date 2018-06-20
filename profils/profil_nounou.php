@@ -38,6 +38,10 @@ $valide = $resultat['valide_n'];
     {
         echo 'Votre profil n\'a pas encore été validé par l\'administrateur <br/> Encore un peu de patience';
     }
+    elseif ($valide==2)
+    {
+        echo 'Votre candidature a été refusée';
+    }
     else
     {
 

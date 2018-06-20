@@ -24,6 +24,8 @@ $total=$_POST['compteur'];
 
 
 $compteur=0;
+$ajout=0;
+$refus=0;
 
 while ($compteur<$total)
 {
@@ -31,21 +33,22 @@ while ($compteur<$total)
     $id = $_POST['idtemp' . $compteur . ''];
     $compteur=$compteur+1;
 
-    echo $valider;
+
 
 
     if ($valider==1) {
         $bdd->exec('UPDATE nounou SET valide_n=1 WHERE identifiant_n="' . $id . '"');
-        echo 'validé';
+        $ajout=$ajout+1;
     }
     else
         {
-        $bdd->exec('DELATE FROM nounou WHERE identifiant_n="' . $id . '"');
-        echo 'refus' ;
+        $bdd->exec('DELETE FROM nounou WHERE identifiant_n="' . $id . '"');
+
+        $refus=$refus+1;
     }
 }
 
-
+echo 'BILAN : <br/> ' . $ajout . ' ajouts <br/> ' . $refus.' refus' ;
     ?>
 
 </body>
