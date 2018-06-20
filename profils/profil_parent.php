@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VOTRE PROFIL PARENT</title>
+</head>
+<body>
+
 <?php
 
 //connexion BDD
@@ -41,8 +49,11 @@ else
         echo '2 Mauvais identifiant ou mot de passe !';
     }
 }
-
 $req->closeCursor();
 
+
 ?>
+</body>
+</html>
+
 

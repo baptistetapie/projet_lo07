@@ -27,7 +27,22 @@
             <p>
                 <label for="nom">Nom :</label><input type="text" name="nom" id="nom" placeholder="Votre nom..." required />
             </p>
-            
+
+            <fieldset>
+                <p>
+                    <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required/>
+                </p>
+
+                <p>
+                    <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
+                </p>
+
+                <p>
+                    <label for="mdp2">Confirmez mot de passe :</label><input type="password" name="mdp2" id="mdp2" placeholder="Confirmation" onblur="verifMdp2(this)" required>
+                </p>
+            </fieldset>
+
+
             <p>
                 <label for="ville">Ville :</label><input type="text" name="ville" id="ville" placeholder="Votre adresse..."  required />
             </p>
@@ -93,19 +108,6 @@
             </p>
 
 
-            <p>
-                <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required/>
-            </p>
-
-            <p>
-                <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
-            </p>
-
-            <p>
-                Photo de profil :<br />
-                <input type="file" name="photo" /><br />
-                <input type="submit" value="Envoyer le fichier" />
-            </p>
 
 
 
@@ -149,7 +151,10 @@
         
         <script src="../JavaScript/retourhaut.js"></script>
         <script src="../JavaScript/langue_auto.js"></script>
-        
+        <script src="../JavaScript/confirmation_mdp.js"></script>
+
+
+
     </body>
 </html>
             

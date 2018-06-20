@@ -31,7 +31,20 @@ and open the template in the editor.
             <p>
                 <label for="nom">Nom :</label><input type="text" name="nom" id="nom" placeholder="Votre nom..." required />
             </p>
-            
+
+            <fieldset>
+            <p>
+                <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required>
+            </p>
+
+            <p>
+                <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
+            </p>
+
+            <p>
+                <label for="mdp2">Confirmez mot de passe :</label><input type="password" name="mdp2" id="mdp2" placeholder="Confirmation" onblur="verifMdp2(this)" required>
+            </p>
+            </fieldset>
             <p>
                 <label for="ville">Ville :</label><input type="text" name="ville" id="ville" placeholder="Votre adresse..."  required />
             </p>
@@ -48,14 +61,9 @@ and open the template in the editor.
                 <textarea name="infos" id="infos" placeholder="Indiquez toutes informations qui vous semblent importantes" cols="80" rows="4" required></textarea>
             </p>
 
-            <p>
-                <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required>
-            </p>
-            
-            <p>
-                <label for="mdp">Mot de passe :</label><input type="password" name="mdp" id="mdp" placeholder="Choisissez un mot de passe..." required>
-            </p>
-            
+
+
+
             <p>
                 <input type="submit" value="Envoyer" />
             </p>   
@@ -66,7 +74,11 @@ and open the template in the editor.
         <div><a id="cRetour" class="cInvisible" href="#haut"></a></div>
         
         <script src="../JavaScript/retourhaut.js"></script>
-        
-        
+
+        <script src="../JavaScript/confirmation_mdp.js"></script>
+
+
+
+
     </body>
 </html>

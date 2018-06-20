@@ -1,5 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACCUEIL NOUNOU</title>
+</head>
+<body>
 
-    <?php
+
+<?php
 
      $heure = date("H");
 
@@ -87,3 +95,6 @@
 
 
     ?>
+
+</body>
+</html>
