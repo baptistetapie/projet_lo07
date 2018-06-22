@@ -45,6 +45,8 @@ while ($compteur<$total)
         $bdd->exec('DELETE FROM nounou WHERE identifiant_n="' . $id . '"');
 
         $refus=$refus+1;
+
+//        mail()
     }
 }
 

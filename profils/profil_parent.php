@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +27,7 @@ catch(Exception $e)
 
 //  Récupération de l'utilisateur et de son pass hashé
 
-$req = $bdd->query('SELECT identifiant_p, mdp_p FROM parent WHERE identifiant_p = \''.$_POST['identifiant'].'\'');
+$req = $bdd->query('SELECT id_p, prenom_p,identifiant_p, mdp_p FROM parent WHERE identifiant_p = \''.$_POST['identifiant'].'\'');
 
 $resultat = $req->fetch();
 
@@ -40,19 +43,24 @@ else
 {
     if ($isPasswordCorrect) {
 
-        session_start();
-        $_SESSION['identifiant'] = $resultat['identifiant_p'];
 
-        echo 'Vous êtes connecté !';
+        $_SESSION['id'] = $resultat['id_p'];
+        $_SESSION['prenom']= $resultat['prenom_p'];
+
+        echo 'Bonjour '.$_SESSION['prenom'].'<br><br>';
     }
     else {
-        echo '2 Mauvais identifiant ou mot de passe !';
+        echo '2 Mauvais identifiant ou mot de passe !<br> <br>';
     }
 }
 $req->closeCursor();
 
 
 ?>
+
+<a href="../formulaires/formulaire_ajout_enfant.php">Ajouter un Enfant </a>
+
+
 </body>
 </html>
 
