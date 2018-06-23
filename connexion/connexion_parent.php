@@ -6,7 +6,7 @@
     <title>CONNEXION PARENTS</title>
 </head>
     <body>
-        <form method="post" action="../profils/profil_parent.php">
+        <form method="post" action="../profils/profil_parent_post.php">
             <fieldset>
             <p>
                 <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required/>

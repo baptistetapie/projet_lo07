@@ -9,7 +9,7 @@
 
 
 <body>
-<form method="post" action="../profils/profil_nounou.php">
+<form method="post" action="../profils/profil_nounou_post.php">
     <fieldset>
         <p>
             <label for="identifiant">Identifiant :</label><input type="text" name="identifiant" id="identifiant" placeholder="Choisissez un identifiant..." required/>
