@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<form method="post" action="../profils/profil_nounou.php">
+<form method="post" action="../profils/profil_nounou_post.php">
     
     <header>
         <nav id="nav"> 

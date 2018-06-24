@@ -51,8 +51,9 @@ while ($donnees = $req->fetch())
 
 
 
-
 $date=$_POST['da'];
+
+    echo'<input type="text" name="date" value="'.$date.'">';
 
 
 $req2=$bdd->query('SELECT * FROM disponibilite as d, Nounou as n, Parent as p 
@@ -92,12 +93,13 @@ $compteur=0;
                   <td>'.$donnees2['email_n'].'</td>
                   <td>'.$donnees2['experience_n'].'</td>
                   <td>'.$donnees2['presentation_n'].'</td>
-                  <td> <input type="radio" name="select'.$compteur.'"> </td>
+                  <td> <input type="radio" name="select" value="'.$compteur.'"> </td>
                   <tr/>';
 
             echo  '<input type="text" name="hd'.$compteur.'"  value="'.$donnees2['hd_dispo'].'"  />';
             echo  '<input type="text" name="hf'.$compteur.'"  value="'.$donnees2['hf_dispo'].'"  />';
             echo  '<input type="text" name="id_n'.$compteur.'"  value="'.$donnees2['id_nounou_dispo'].'"  />';
+            echo  '<input type="text" name="prenom_n'.$compteur.'"  value="'.$donnees2['prenom_n'].'"  />';
 
 
 $compteur=$compteur+1;
@@ -107,6 +109,9 @@ $compteur=$compteur+1;
         echo '</table>';
 
         echo  '<input type="text" name="date"  value="'.$date.'" />';
+
+
+        echo '<input type="submit" name="valider">'
 
 
     ?>
