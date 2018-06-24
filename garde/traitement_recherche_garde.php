@@ -34,7 +34,23 @@ catch(Exception $e)
 $parent=$_SESSION['id'];
 
 $req = $bdd->query('SELECT id_e,prenom_e FROM enfant WHERE id_parent="'.$parent.'"');
-$donnees = $req->fetch();
+
+$compteurenfant=0;
+
+echo '<form method="post" action="ajout_garde.php">';
+
+while ($donnees = $req->fetch())
+{
+    if ($_POST['garder'.$donnees['id_e']])
+    {
+        echo  '<input type="text" name="garder'.$compteurenfant.'"  value="'.$donnees['id_e'].'" hidden  />';
+    }
+    $compteurenfant=$compteurenfant+1;
+}
+
+
+
+
 
 $date=$_POST['da'];
 
@@ -61,7 +77,7 @@ $req2=$bdd->query('SELECT * FROM disponibilite as d, Nounou as n, Parent as p
                  <th>Choix<th/>
                  <tr/>';
 
-echo '<form method="post" action="ajout_garde.php">';
+
 
 $compteur=0;
 
@@ -79,9 +95,9 @@ $compteur=0;
                   <td> <input type="radio" name="select'.$compteur.'"> </td>
                   <tr/>';
 
-            echo  '<input type="text" name="hd'.$compteur.'"  value="'.$donnees2['hd_dispo'].'" hidden />';
-            echo  '<input type="text" name="hf'.$compteur.'"  value="'.$donnees2['hf_dispo'].'" hidden />';
-            echo  '<input type="text" name="id_n'.$compteur.'"  value="'.$donnees2['id_nounou_dispo'].'" hidden />';
+            echo  '<input type="text" name="hd'.$compteur.'"  value="'.$donnees2['hd_dispo'].'"  />';
+            echo  '<input type="text" name="hf'.$compteur.'"  value="'.$donnees2['hf_dispo'].'"  />';
+            echo  '<input type="text" name="id_n'.$compteur.'"  value="'.$donnees2['id_nounou_dispo'].'"  />';
 
 
 $compteur=$compteur+1;
@@ -90,7 +106,7 @@ $compteur=$compteur+1;
 
         echo '</table>';
 
-            echo  '<input type="text" name="date"  value="'.$date.'"';
+        echo  '<input type="text" name="date"  value="'.$date.'" />';
 
 
     ?>

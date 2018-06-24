@@ -36,9 +36,11 @@ session_start();
 echo
         'Faire garder </br></br> ';
 
+
+
     while ($donnees = $req->fetch()) {
 
-        echo ( $donnees['prenom_e']. '<input type="checkbox" value="'.$donnees['id_e'].'" name="garder' . $donnees['id_e'] . '"></br></br>');
+        echo ( $donnees['prenom_e']. '<input type="checkbox" value="'.$donnees['id_e'].'" name="garder' . $donnees['id_e'] .'"></br></br>');
 
     }
 
