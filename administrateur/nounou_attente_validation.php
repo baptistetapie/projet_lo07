@@ -34,17 +34,8 @@ $req = $bdd->query('SELECT * FROM nounou WHERE valide_n=0');
 <form name="valider_nounou" method="post" action="../administrateur/valider_nounou.php" enctype="multipart/form-data" >
 
     <?php
-
-    $compteur = 0;
-
-while ($donnees = $req->fetch())
-        {
-
-            echo  '<input type="text" name="idtemp'.$compteur.'"  value="'.$donnees['identifiant_n'].'" hidden />';
-
-
-            echo
-            '<table>
+    echo
+    '<table>
                 <tr>
                <th>prénom</th>
                <th>nom</th>
@@ -56,6 +47,16 @@ while ($donnees = $req->fetch())
              <th>presentation</th>
              <th>Validation<th/>
              <tr/>';
+
+    $compteur = 0;
+
+while ($donnees = $req->fetch())
+        {
+
+            echo  '<input type="text" name="idtemp'.$compteur.'"  value="'.$donnees['identifiant_n'].'" hidden />';
+
+
+
 
             echo '<tr>
               <td>'.$donnees['prenom_n'].'</td>'.
@@ -72,24 +73,19 @@ while ($donnees = $req->fetch())
                     <option value="0">REFUSER</option>
                   </select>
              </td>
-             <tr/></table>'. '<br/><br/>';
+             <tr/>'. '<br/><br/>';
 
     $compteur=$compteur+1;
 
          }
 
-
+echo '</table>';
 
 echo '      <p>
                 <input type="submit" value="Valider" />
             </p>';
 
     echo  '<input type="text" name="compteur" id="compteur" value="'.$compteur.'" hidden/></form>';
-
-
-
-
-
 
 
 ?>

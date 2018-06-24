@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>VALIDATION NOUNOU</title>
-<!--    <link rel="stylesheet" href="../CSS/validation_nounou.css" />-->
+    <link rel="stylesheet" href="../CSS/validation_nounou.css" />
 </head>
 <body>
 <?php

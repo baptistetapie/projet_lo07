@@ -8,15 +8,48 @@ session_start();
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <title>NOUVEAU CRENEAU NOUNOU</title>
+    <title>NOUVELLE GARDE</title>
 </head>
 <body>
 <div id="DivCalendar" style="z-index:2; display:none; width:200px;height:235px; overflow:hidden;position:absolute;Top:1px; left:1px;" ></div>
-<form name="calendar"  onsubmit="return comparedate()" method="post" action="traitement_creneau_nounou.php">
+<form name="calendar"  onsubmit="return comparedate()" method="post" action="traitement_recherche_garde.php">
 
 
-<!--    <p><label for="hd">Heure de début : </label><input type="number" name="hd" id="hd" min="0" max="23" required></p>-->
-<!--    <p> <label for="hf">Heure de fin : </label><input type="number" name="hf" id="hf" min="0" max="23" onblur="verifheure2(this)" required></p>-->
+    <?php
+
+
+    try
+    {
+        // On se connecte à MySQL
+        $bdd = new PDO('mysql:host=localhost;dbname=bd_nounou;charset=utf8', 'root', 'root');
+    }
+    catch(Exception $e)
+    {
+        // En cas d'erreur, on affiche un message et on arrête tout
+        die('Erreur : '.$e->getMessage());
+    }
+
+    $parent=$_SESSION['id'];
+
+    $req = $bdd->query('SELECT id_e,prenom_e FROM enfant WHERE id_parent="'.$parent.'"');
+
+echo
+        'Faire garder </br></br> ';
+
+    while ($donnees = $req->fetch()) {
+
+        echo ( $donnees['prenom_e']. '<input type="checkbox" value="'.$donnees['id_e'].'" name="garder' . $donnees['id_e'] . '"></br></br>');
+
+    }
+
+
+
+
+    ?>
+
+
+    <!--    <p><label for="hd">Heure de début : </label><input type="number" name="hd" id="hd" min="0" max="23" required></p>-->
+    <!--    <p> <label for="hf">Heure de fin : </label><input type="number" name="hf" id="hf" min="0" max="23" onblur="verifheure2(this)" required></p>-->
 
     <tr>
         <td> Heure de début :
@@ -89,7 +122,3 @@ session_start();
 <!--<script src="../JavaScript/heure.js"></script>-->
 </body>
 </html>
-
-
-<!--action="javascript:alert('ok')"-->
-

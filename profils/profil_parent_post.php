@@ -27,7 +27,7 @@ catch(Exception $e)
 
 //  Récupération de l'utilisateur et de son pass hashé
 
-$req = $bdd->query('SELECT id_p, prenom_p,identifiant_p, mdp_p FROM parent WHERE identifiant_p = \''.$_POST['identifiant'].'\'');
+$req = $bdd->query('SELECT id_p, prenom_p,identifiant_p, mdp_p,ville_p FROM parent WHERE identifiant_p = \''.$_POST['identifiant'].'\'');
 
 $resultat = $req->fetch();
 
@@ -37,7 +37,7 @@ $isPasswordCorrect = password_verify($_POST['mdp'], $resultat['mdp_p']);
 
 if (!$resultat)
 {
-    echo '1 Mauvais identifiant ou mot de passe !';
+    echo ' Mauvais identifiant ou mot de passe !';
 }
 else
 {
@@ -46,19 +46,22 @@ else
 
         $_SESSION['id'] = $resultat['id_p'];
         $_SESSION['prenom']= $resultat['prenom_p'];
+        $_SESSION['ville']=$resultat['ville_p'];
 
         echo 'Bonjour '.$_SESSION['prenom'].'<br><br>';
+
+        echo ('<a href="../formulaires/formulaire_ajout_enfant.php">Ajouter un Enfant </a> <br/>
+
+<a href="../garde/formulaire_recherche_garde.php"> Faire garder mes enfants</a>');
     }
     else {
-        echo '2 Mauvais identifiant ou mot de passe !<br> <br>';
+        echo 'Mauvais identifiant ou mot de passe !<br> <br>';
     }
 }
 $req->closeCursor();
 
 
 ?>
-
-<a href="../formulaires/formulaire_ajout_enfant.php">Ajouter un Enfant </a>
 
 
 </body>

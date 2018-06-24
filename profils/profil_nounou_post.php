@@ -67,6 +67,7 @@ $valide = $resultat['valide_n'];
                         $_SESSION['id'] = $resultat['id_n'];
                         $_SESSION['prenom']= $resultat['prenom_n'];
                         echo 'Bonjour '. $_SESSION['prenom'];
+                       echo'<br> <a href="../garde/formulaire_creneau_nounou.php"> Ajouter des créneaux de disponibilité</a>';
                     }
                 else
                 {
@@ -80,7 +81,7 @@ $req->closeCursor();
 ?>
 
 
-<a href="../garde/formulaire_creneau_nounou.php"> Ajouter des créneaux de disponibilité</a>
+
 
 
 </body>

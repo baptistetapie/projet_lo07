@@ -9,7 +9,7 @@ session_start();
     <html lang="en">
     <head>
         <SCRIPT LANGUAGE="JavaScript">
-            document.location.href="../profils/profil_nounou_post.php"
+            document.location.href="../profils/profil_nounou.php"
         </SCRIPT>
         <meta charset="UTF-8">
 
@@ -29,13 +29,14 @@ catch(Exception $e)
     die('Erreur : '.$e->getMessage());
 }
 
+//echo $_POST['hd'].$_POST['hf'];
 
 $hd=$_POST['hd'];
 $hf=$_POST['hf'];
 $da=$_POST['da'];
 
-$bdd->exec('INSERT INTO disponibilite(hd_dispo,hf_dispo,date_dispo,id_nounou_dispo) 
-                                        VALUES("'.$hd.'","'.$hf.'","'.$_SESSION['id'].'")');
+$bdd->exec('INSERT INTO disponibilite(hd_dispo,hf_dispo,date_dispo,id_nounou_dispo)
+                                        VALUES("'.$hd.'","'.$hf.'","'.$da.'","'.$_SESSION['id'].'")');
 
 
 
