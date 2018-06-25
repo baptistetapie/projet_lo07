@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d7175f-cbd8-40f8-860f-11e3ff4ff79f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/profil_parent.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/accueil.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/profil_nounou.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/profil_nounou.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accueil/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/accueil/accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profils/profil_nounou.php" beforeDir="false" afterPath="$PROJECT_DIR$/profils/profil_nounou.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profils/profil_parent.php" beforeDir="false" afterPath="$PROJECT_DIR$/profils/profil_parent.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +33,8 @@
       <file leaf-file-name="accueil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/accueil/accueil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-start-column="4" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="765">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -43,8 +42,8 @@
       <file leaf-file-name="accueil.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSS/accueil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+            <state relative-caret-position="1185">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
@@ -282,12 +281,12 @@
       <workItem from="1528310601776" duration="2174000" />
       <workItem from="1528355269333" duration="31892000" />
       <workItem from="1529478430514" duration="26088000" />
-      <workItem from="1529674485846" duration="54704000" />
+      <workItem from="1529674485846" duration="54885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114858000" />
+    <option name="totallyTimeSpent" value="115039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -674,15 +673,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/accueil/accueil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" selection-start-line="30" selection-start-column="4" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="765">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS/accueil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        <state relative-caret-position="1185">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>

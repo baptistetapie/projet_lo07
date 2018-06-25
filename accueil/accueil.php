@@ -4,7 +4,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Accueil | Les Bambins</title>
+
         <link rel="stylesheet" href="../CSS/accueil.css"/>
+
+
+
+        <link href="accueil.css" rel="stylesheet">
 
     </head>
     <body>
@@ -24,6 +29,7 @@
         <div class="navbar">
           <a href="../formulaires/formulaire_ajout_nounou.php">Inscription nounou</a>
           <a href="../formulaires/formulaire_ajout_parent.php">Inscription parent</a>
+
             <a href="../connexion/connexion_nounou.php">Connexion Nounou</a>
             <a href="../connexion/connexion_parent.php"> Connexion Parents</a>
         </div>
@@ -35,6 +41,15 @@
 <!--        <p>-->
 <!--            <a href="../connexion/connexion_parent.php"> Connexion Parents</a>-->
 <!--        </p>-->
+
+       
+            <a href="../connexion/connexion_nounou.php">Connexion NOUNOU</a>
+            <a href="../connexion/connexion_parent.php"> Connexion PARENTS</a>
+        </div>
+        
+        <p></p>
+        
+
         <div class="row">
             <div class="side">
                 <h3>Nos services</h3>
@@ -57,7 +72,9 @@
                 </p>
             </div>
         </div>
-                
+        <p>
+            
+        </p>     
         <div class="footer">
             <h3>Restons en contact!</h3>
             <p>Teléphone : 0768962414</p>

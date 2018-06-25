@@ -8,10 +8,20 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ACCUEIL PARENT</title>
+    <link href="profil_parent.css" rel="stylesheet">
+    <title>ACCUEIL PARENT | Les Bambins</title>
 </head>
 <body>
+<a name="haut" id="haut"></a>
 
+<header>
+        <nav id="nav"> 
+           <ul> <li><a href="accueil.php" title="Les Bambins"><img src="https://naitreetgrandir.com/DocumentsNG/Fiches/images/bg-naitre-grandir-bienfaits-dessin-3-a-5-ans-1.Jpeg" alt="logo" width="100px"></a></li>
+               <li> <h1>Votre profil NOUNOU</h1></li>
+           </ul>
+       </nav>
+</header>
+    
 <?php
 //connexion BDD
 
@@ -68,7 +78,7 @@ echo'</table></br>';
 <a href="../garde/formulaire_recherche_garde.php"> Faire garder mes enfants</a>
 
 
-
+<script src="retourhaut.js"></script>
 
 
 </body>
