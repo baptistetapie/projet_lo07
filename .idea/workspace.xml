@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d7175f-cbd8-40f8-860f-11e3ff4ff79f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/profil_nounou.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/profil_nounou.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/profil_nounou.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/profils/profil_nounou.php" beforeDir="false" afterPath="$PROJECT_DIR$/profils/profil_nounou.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,20 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profil_nounou.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profil_nounou.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profils/profil_nounou.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-447">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profil_nounou.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CSS/profil_nounou.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+            <state relative-caret-position="-162">
+              <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -315,12 +306,12 @@
       <workItem from="1528310601776" duration="2174000" />
       <workItem from="1528355269333" duration="31892000" />
       <workItem from="1529478430514" duration="26088000" />
-      <workItem from="1529674485846" duration="53587000" />
+      <workItem from="1529674485846" duration="53853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113741000" />
+    <option name="totallyTimeSpent" value="114007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -701,17 +692,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profils/profil_nounou.php">
+    <entry file="file://$PROJECT_DIR$/CSS/profil_nounou.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-447">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="723">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/profil_nounou.css">
+    <entry file="file://$PROJECT_DIR$/profils/profil_nounou.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="89" column="26" selection-start-line="89" selection-start-column="26" selection-end-line="89" selection-end-column="26" />
+        <state relative-caret-position="-162">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
