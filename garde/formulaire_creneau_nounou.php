@@ -8,7 +8,7 @@ session_start();
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <link rel="stylesheet" href="nouveau_creneau.css" />
+    <link rel="stylesheet" href="../CSS/nouveau_creneau.css" />
     <title>NOUVEAU CRENEAU NOUNOU</title>
 </head>
 <body>
