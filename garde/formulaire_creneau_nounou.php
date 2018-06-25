@@ -8,10 +8,21 @@ session_start();
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" href="nouveau_creneau.css" />
     <title>NOUVEAU CRENEAU NOUNOU</title>
 </head>
 <body>
-<div id="DivCalendar" style="z-index:2; display:none; width:200px;height:235px; overflow:hidden;position:absolute;Top:1px; left:1px;" ></div>
+    
+    <header>
+        <nav id="nav"> 
+           <ul> <li><a href="accueil.php" title="Les Bambins"><img src="https://naitreetgrandir.com/DocumentsNG/Fiches/images/bg-naitre-grandir-bienfaits-dessin-3-a-5-ans-1.Jpeg" alt="logo" width="100px"></a></li>
+               <li> <h1>Connexion à votre compte NOUNOU</h1></li>
+           </ul>
+       </nav>
+        </header>
+    <div id="DivCalendar" style="z-index:2; display:none; width:200px;height:235px; overflow:hidden;position:absolute;Top:1px; left:1px;" ></div>
+    <div>
+
 <form name="calendar"  onsubmit="return comparedate()" method="post" action="traitement_creneau_nounou.php">
 
 
@@ -84,12 +95,8 @@ session_start();
 
     <p> <input type='submit' value='envoyer' id="bouton" /></p>
 </form>
-
+    </div>
 <script src="../JavaScript/calendrier.js"></script>
 <!--<script src="../JavaScript/heure.js"></script>-->
 </body>
 </html>
-
-
-<!--action="javascript:alert('ok')"-->
-
