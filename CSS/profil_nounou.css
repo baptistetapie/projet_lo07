@@ -1,92 +1,82 @@
- .header { 
-                display: block;
+                 .header { 
+                    display: block;
+                }
+                a#cRetour{
+                        border-radius:3px;
+                        padding:10px;
+                        font-size:15px;
+                        text-align:center;
+                        color:#fff;
+                        background:rgba(0, 0, 0, 0.25);
+                        position:fixed;
+                        right:20px;
+                        opacity:1;
+                        z-index:99999;
+                        transition:all ease-in 0.2s;
+                        backface-visibility: hidden;
+                        -webkit-backface-visibility: hidden;
+                        text-decoration: none;
+                    }
+                    a#cRetour:before{ 
+                        content: "\25b2";
+                    }
+                    a#cRetour:hover{
+                        background:rgba(0, 0, 0, 1);
+                        transition:all ease-in 0.2s;
+                    }
+                    a#cRetour.cInvisible{
+                        bottom:-35px;
+                        opacity:0;
+                        transition:all ease-in 0.5s;
+                    }
+
+                    a#cRetour.cVisible{
+                        bottom:20px;
+                        opacity:1;
+                    }
+
+                    * {
+                        box-sizing: border-box;
+                    }
+
+                    h1{
+                    color: #cc0000;
+                    letter-spacing: 1px;
+                    text-align: center;
+                    line-height: 10px;
+                    font-size: 40px;
+                }
+
+                header nav ul li{
+                    display: inline;
+                    margin-left: 0;
+                }
+
+                table {
+                    border-collapse: collapse;
+                    width: 100%;
+                }
+
+                th, td {
+                    text-align: left;
+                    padding: 8px;
+                }
+
+            tr:nth-child(even) {background-color: #f2f2f2;}
+
+            .ajout {
+                display: flex;
+                            border-radius: 15px;
+                            background-color: #800000;
+                            padding: 5px;
+                            margin-left: 530px;
+                            margin-right: 530px; 
+                            text-align: center;
+                            font-size: 18px;
             }
-            a#cRetour{
-                    border-radius:3px;
-                    padding:10px;
-                    font-size:15px;
-                    text-align:center;
-                    color:#fff;
-                    background:rgba(0, 0, 0, 0.25);
-                    position:fixed;
-                    right:20px;
-                    opacity:1;
-                    z-index:99999;
-                    transition:all ease-in 0.2s;
-                    backface-visibility: hidden;
-                    -webkit-backface-visibility: hidden;
-                    text-decoration: none;
-                }
-                a#cRetour:before{ 
-                    content: "\25b2";
-                }
-                a#cRetour:hover{
-                    background:rgba(0, 0, 0, 1);
-                    transition:all ease-in 0.2s;
-                }
-                a#cRetour.cInvisible{
-                    bottom:-35px;
-                    opacity:0;
-                    transition:all ease-in 0.5s;
-                }
 
-                a#cRetour.cVisible{
-                    bottom:20px;
-                    opacity:1;
-                }
+            a:link{
+                text-decoration: none;
+                color: yellow;
 
-                * {
-                    box-sizing: border-box;
-                }
-
-                h1{
-                color: #cc0000;
-                letter-spacing: 1px;
-                text-align: center;
-                line-height: 10px;
-                font-size: 40px;
             }
-            
-            header nav ul li{
-                display: inline;
-                margin-left: 0;
-            }
-            
-            table {
-                border-collapse: collapse;
-                width: 100%;
-            }
-
-<<<<<<< HEAD
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-th, td {
-   border : 1px solid black;
-}
-=======
-            th, td {
-                text-align: left;
-                padding: 8px;
-            }
->>>>>>> e2d6a8bdf184385d49968a31a5d7cf1a502fc85e
-
-        tr:nth-child(even) {background-color: #f2f2f2;}
-
-        .ajout {
-            display: flex;
-                        border-radius: 15px;
-                        background-color: #800000;
-                        padding: 5px;
-                        margin-left: 530px;
-                        margin-right: 530px; 
-                        text-align: center;
-                        font-size: 18px;
-        }
-
-        a:link{
-            text-decoration: none;
-            color: white;
-            
-        }
