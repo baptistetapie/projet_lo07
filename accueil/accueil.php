@@ -34,18 +34,7 @@
             <a href="../connexion/connexion_parent.php"> Connexion Parents</a>
         </div>
 
-<!--        <p>-->
-<!--            <a href="../connexion/connexion_nounou.php">Connexion Nounou</a>-->
-<!--        </p>-->
-<!---->
-<!--        <p>-->
-<!--            <a href="../connexion/connexion_parent.php"> Connexion Parents</a>-->
-<!--        </p>-->
 
-       
-            <a href="../connexion/connexion_nounou.php">Connexion NOUNOU</a>
-            <a href="../connexion/connexion_parent.php"> Connexion PARENTS</a>
-        </div>
         
         <p></p>
         
