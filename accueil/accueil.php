@@ -4,8 +4,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Accueil | Les Bambins</title>
-<!--        <link rel="stylesheet" href="accueil.css"/>-->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../CSS/accueil.css"/>
+
     </head>
     <body>
         
@@ -24,15 +24,17 @@
         <div class="navbar">
           <a href="../formulaires/formulaire_ajout_nounou.php">Inscription nounou</a>
           <a href="../formulaires/formulaire_ajout_parent.php">Inscription parent</a>
+            <a href="../connexion/connexion_nounou.php">Connexion Nounou</a>
+            <a href="../connexion/connexion_parent.php"> Connexion Parents</a>
         </div>
 
-        <p>
-            <a href="../connexion/connexion_nounou.php">Connexion Nounou</a>
-        </p>
-
-        <p>
-            <a href="../connexion/connexion_parent.php"> Connexion Parents</a>
-        </p>
+<!--        <p>-->
+<!--            <a href="../connexion/connexion_nounou.php">Connexion Nounou</a>-->
+<!--        </p>-->
+<!---->
+<!--        <p>-->
+<!--            <a href="../connexion/connexion_parent.php"> Connexion Parents</a>-->
+<!--        </p>-->
         <div class="row">
             <div class="side">
                 <h3>Nos services</h3>

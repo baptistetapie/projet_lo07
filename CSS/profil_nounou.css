@@ -58,8 +58,7 @@
                 }
 
                 th, td {
-                    text-align: left;
-                    padding: 8px;
+                    border : 1px solid black;
                 }
 
             tr:nth-child(even) {background-color: #f2f2f2;}
@@ -67,16 +66,15 @@
             .ajout {
                 display: flex;
                             border-radius: 15px;
-                            background-color: #800000;
+                            background-color: #ffe6e6;
                             padding: 5px;
-                            margin-left: 530px;
-                            margin-right: 530px; 
+                            width : 50%;
                             text-align: center;
                             font-size: 18px;
             }
 
             a:link{
                 text-decoration: none;
-                color: yellow;
+                color: white ;
 
             }
