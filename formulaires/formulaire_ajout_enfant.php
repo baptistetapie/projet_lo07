@@ -27,7 +27,7 @@ session_start() ;
 
 
 
-<form name="ajout_enfant" method='post' action='traitement_ajout_enfant.php'>
+<form name="ajout_enfant"  method='post' action='traitement_ajout_enfant.php'>
 
     <div>    
             <h2>
@@ -55,7 +55,9 @@ session_start() ;
         
     </div>
 </form>
-    
+</body>
+</html>
+
     <script type="text/Javascript>
         fonction ajout(element){
             var formulaire = document.ajout_enfant;
@@ -66,5 +68,5 @@ session_start() ;
         }
     </script>
     
-</body>
-</html>
+
+

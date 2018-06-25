@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CONNEXION PARENTS</title>
+    <link rel="stylesheet" href="connexion.css" />
 </head>
     <body>
         <form method="post" action="../profils/profil_parent_post.php">

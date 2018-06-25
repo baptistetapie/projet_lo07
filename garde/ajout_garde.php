@@ -45,6 +45,6 @@ echo'Vous avez choisi '.$prenom_nounou.' pour garder vos enfants le '.$date;
 
 ?>
 
-
+<a href="../profils/profil_parent.php">Retour à la page d'accueil</a>
 </body>
 </html>
