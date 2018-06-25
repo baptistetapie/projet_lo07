@@ -5,6 +5,7 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="profil_parent.css" rel="stylesheet">
     <title>VOTRE PROFIL PARENT</title>
 </head>
 <body>
