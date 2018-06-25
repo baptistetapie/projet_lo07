@@ -83,7 +83,7 @@ echo'</table></br>';
 
 ?>
 
-<a href="../garde/formulaire_creneau_nounou.php"> Ajouter des créneaux de disponibilité</a>
+<a class="ajout" href="../garde/formulaire_creneau_nounou.php"> Ajouter des créneaux de disponibilité</a>
 <script src="retourhaut.js"></script>
 </body>
 </html>
