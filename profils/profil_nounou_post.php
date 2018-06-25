@@ -70,7 +70,7 @@ $valide = $resultat['valide_n'];
 
 
 
-                        echo 'Mes gardes à venir : <br>';
+                        echo 'Gardes : <br>';
 
 
                         $req = $bdd->query('SELECT g.heure_deb_g,g.heure_fin_g,g.date_g,e1.prenom_e,e2.prenom_e

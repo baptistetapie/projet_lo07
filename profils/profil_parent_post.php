@@ -50,7 +50,7 @@ else
 
         echo 'Bonjour '.$_SESSION['prenom'].'<br><br>';
 
-echo 'Mes gardes à venir : <br>';
+echo 'Gardes : <br>';
 
 
 $req = $bdd->query('SELECT g.heure_deb_g,g.heure_fin_g,g.date_g,n.prenom_n FROM Garde AS g, parent AS p,Nounou AS n 
