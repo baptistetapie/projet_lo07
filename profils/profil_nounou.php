@@ -8,7 +8,7 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="profil_nounou.css" rel="stylesheet">
+    <link href="../CSS/profil_nounou.css" rel="stylesheet">
     <title>VOTRE PROFIL NOUNOU</title>
 </head>
 <body>
@@ -84,6 +84,8 @@ echo'</table></br>';
 ?>
 
 <a class="ajout" href="../garde/formulaire_creneau_nounou.php"> Ajouter des créneaux de disponibilité</a>
+
+
 <script src="retourhaut.js"></script>
 </body>
 </html>

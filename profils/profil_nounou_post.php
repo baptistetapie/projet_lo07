@@ -8,6 +8,7 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="../CSS/profil_nounou.css" rel="stylesheet">
     <title>VOTRE PROFIL NOUNOU</title>
 </head>
 <body>
