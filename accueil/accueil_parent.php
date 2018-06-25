@@ -47,7 +47,7 @@ else
 
 
         echo('Merci pour votre inscription ! <br/>
-    Vous allez à présent pouvoir inscrire vos enfants <br/> ');
+    <a href="../connexion/connexion_parent.php">Connectez vous dès à présent</a> <br/> ');
 
 
     //     PARTIE REMPLISSAGE BDD
