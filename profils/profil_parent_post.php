@@ -85,9 +85,9 @@ echo'</table></br>';
 
 
 
-        echo ('<a href="../formulaires/formulaire_ajout_enfant.php">Ajouter un Enfant </a> <br/>
+        echo ('<a class="ajout" href="../formulaires/formulaire_ajout_enfant.php">Ajouter un Enfant </a> <br/>
 
-<a href="../garde/formulaire_recherche_garde.php"> Faire garder mes enfants</a>');
+<a class="ajout" href="../garde/formulaire_recherche_garde.php"> Faire garder mes enfants</a>');
     }
     else {
         echo 'Mauvais identifiant ou mot de passe !<br> <br>';
